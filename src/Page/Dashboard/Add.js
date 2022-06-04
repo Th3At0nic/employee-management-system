@@ -86,7 +86,7 @@ function Add({ employees, setEmployees, setIsAdding }) {
                     value={salary}
                     onChange={e => setSalary(e.target.value)}
                 />
-                <label htmlFor="date">Date</label>
+                <label htmlFor="date">Join Date</label>
                 <input
                     id="date"
                     type="date"

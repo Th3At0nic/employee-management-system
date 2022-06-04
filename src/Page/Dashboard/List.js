@@ -13,12 +13,12 @@ function List({ employees, handleEdit, handleDelete }) {
             <table className='striped-table'>
                 <thead>
                     <tr>
-                        <th>No.</th>
+                        <th>Sl No.</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
                         <th>Salary</th>
-                        <th>Date</th>
+                        <th>Join Date</th>
                         <th colSpan={2} className="text-center">
                             Actions
                         </th>
