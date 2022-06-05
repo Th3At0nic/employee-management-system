@@ -14,7 +14,7 @@ function List({ employees, handleEdit, handleDelete }) {
       <table className="striped-table">
         <thead>
           <tr>
-            <th>Sl No.</th>
+            <th>SL No.</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
