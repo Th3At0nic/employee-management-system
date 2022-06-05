@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserPen, faUserXmark } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
 function List({ employees, handleEdit, handleDelete }) {
@@ -38,7 +40,7 @@ function List({ employees, handleEdit, handleDelete }) {
                     onClick={() => handleEdit(employee.id)}
                     className="button muted-button btn-success"
                   >
-                    Edit
+                    <FontAwesomeIcon icon={faUserPen} /> Edit
                   </button>
                 </td>
                 <td className="text-left">
@@ -46,7 +48,7 @@ function List({ employees, handleEdit, handleDelete }) {
                     onClick={() => handleDelete(employee.id)}
                     className="button muted-button btn-danger btn-round"
                   >
-                    Delete
+                    <FontAwesomeIcon icon={faUserXmark} /> Delete
                   </button>
                 </td>
               </tr>
