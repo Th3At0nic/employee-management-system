@@ -1,5 +1,5 @@
 import "./App.css";
-import Dashboard from "./Page/Dashboard";
+import Dashboard from "./Page/Dashboard/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
